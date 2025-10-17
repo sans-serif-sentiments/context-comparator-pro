@@ -1,0 +1,65 @@
+{
+  "system": {
+    "timestamp": "2025-10-17T02:59:06Z",
+    "hostname": "Macbook-Air.local",
+    "os": {
+      "system": "Darwin",
+      "release": "24.6.0",
+      "version": "Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:34 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8103",
+      "machine": "arm64"
+    },
+    "python": "3.13.7",
+    "cpu": {
+      "model": "arm",
+      "physical_cores": 8,
+      "logical_cores": 8,
+      "frequency_mhz": 3204,
+      "utilization_percent": 14.5,
+      "load_average": [
+        1.67529296875,
+        3.74951171875,
+        5.53369140625
+      ]
+    },
+    "ram": {
+      "total_gb": 8.0,
+      "available_gb": 1.27,
+      "used_percent": 84.2
+    },
+    "gpu": [],
+    "ollama_version": null,
+    "env": {
+      "shell": "/bin/zsh",
+      "ollama_host": "http://localhost:11434"
+    }
+  },
+  "models": {
+    "phi3:mini-128k": {
+      "model": null,
+      "family": "phi3",
+      "parameter_size": "3.8B",
+      "quantization_level": null,
+      "num_ctx": null,
+      "num_gpu": null
+    },
+    "llama3.2:3b": {
+      "model": null,
+      "family": "llama",
+      "parameter_size": "3.2B",
+      "quantization_level": null,
+      "num_ctx": null,
+      "num_gpu": null
+    }
+  },
+  "parameters": {
+    "preset": "production",
+    "repeats": 1
+  },
+  "task_profiles": [
+    "summarization"
+  ],
+  "run_metadata": {
+    "timestamp": "20251017_082906",
+    "records": 2
+  }
+}

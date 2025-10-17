@@ -1,0 +1,3 @@
+model,task_id,run,target_words,keywords,latency_s,ttft_s,eval_count,prompt_eval_count,eval_duration_s,prompt_eval_duration_s,total_duration_s,tokens_per_sec,cost_proxy,faithfulness,completeness,structure,conciseness,aggregate
+llama3.2:3b,reasoning,1,200,,24.6974,1.838,534,47,22.8525,0.292,24.676,23.3673,1.0569,5.0,4.17,2.5,0.0,3.75
+phi3:mini-128k,reasoning,1,200,,929.9612,5.435,676,38,924.2898,1.17,929.73,0.7314,1271.5291,4.0,4.17,2.5,0.0,3.35

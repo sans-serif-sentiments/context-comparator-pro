@@ -1,0 +1,6 @@
+task_id,prompt,expected_output
+summarization,"Summarize the benefits and trade-offs of using context windows larger than 16k tokens for enterprise knowledge bases in ≤120 words.","Brief paragraph with bullet list"
+instruction_following,"Outline a five-step onboarding process for contractors including compliance checks and security provisioning.","Numbered list"
+extraction_json,"Parse the key-value pairs from the incident report and return JSON with keys id, owner, severity, status.","Valid JSON object"
+reasoning,"Compare the operational risks of migrating from on-prem PostgreSQL to managed cloud Postgres for a fintech startup.","Paragraph with bullet list"
+coding_explainer,"Explain why using global state in HTTP handlers can cause concurrency problems and suggest safer alternatives.","Sections with headings"
